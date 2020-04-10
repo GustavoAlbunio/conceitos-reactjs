@@ -33,7 +33,20 @@ button {
   font-size: 14px;
 }
 
-div li button {
+div li button.delete {
   margin: 0 15px;
   background: #ca4949;
+}
+
+div li button.like {
+  margin: 0 15px;
+  background: #27be27;
+}
+
+div li button.like span {
+  margin-right: 5px;
+  padding: 0 5px;
+  background: #fff;
+  border-radius: 4px;
+  color: #27be27;
 }
